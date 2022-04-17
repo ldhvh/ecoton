@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+.container-xxl {
+    alignment: center;
+}
+.container-fluid {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    border-image-width: 5px;
+    border-color: #CFB784 ;
+
+}
+
+.image {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    alignment: center;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    padding-top: 0px;
+}
+
+
+.col {
+    -ms-flex: 100%;
+    flex: 33.3%;
+    padding: 4px;
+}
+
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 8px;
+    color: #333333;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+}
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    align-content: center;
+
+}
+.card-body {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    alignment: center;
+
+}
+.card-title {
+    font-size: 20px;
+    alignment: center;
+    margin-top: 5px;
+    position: absolute;
+    color: #333333;
+    font-family: 'Forum', cursive;
+
+}
+.card-text {
+    font-size: 15px;
+    alignment: center;
+    margin-top: 60px;
+    position: absolute;
+    color: #333333;
+
+}
+
+.mx-auto {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 700px;
+
+}
+.moreinfo {
+    width: 700px;
+    margin-bottom: 300px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: #333333;
+    font-family: 'Cinzel', sans-serif;
+    position: relative;
+    left: 320px;
+    right: 300px;
+
+}
+.main__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    padding-top: 40px;
+
+}
