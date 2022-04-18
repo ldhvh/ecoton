@@ -45,7 +45,16 @@
     padding: 280px 0 220px;
 }
 
-
+.col{
+    background: none repeat scroll 0 0;
+    color: #FFFFFF; 
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 5em;
+    word-wrap: break-word;
+    text-align: center;
+}
 nav {
     display: flex;
     justify-content:space-around;
